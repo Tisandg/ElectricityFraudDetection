@@ -162,3 +162,8 @@ cython_debug/
 #.idea/
 
 /Datasets/*
+/API/venv
+/Notebooks/models
+
+*.pkl
+*.pth
