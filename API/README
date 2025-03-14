@@ -1,8 +1,19 @@
 ## Create and Enable venv
-* Windows: `.\venv\Scripts\activate`
+Windows: `.\venv\Scripts\activate`
 
 ## Install dependencies
 `pip install -r requirements.txt`
 
+## Before to run
+It's important to check the following items before to run the api
+1. The model should be located inside the `models` directory*
+2. Data used for testing the model should be located inside data*
+
+*The files used for this process were in `.pkl`
+
 ## To run the API
 `uvicorn main:app --reload`
+
+## What services are available?
+Open the following link in your browser. There you can find a list of the services available by the API.
+http://127.0.0.1:8000/docs
